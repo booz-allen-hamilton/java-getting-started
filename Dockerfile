@@ -3,4 +3,5 @@ FROM dockerfile/java:oracle-java7
 ADD target /tmp/
 RUN ls -altr /tmp/
 RUN cd /tmp/
+EXPOSE 9000
 WORKDIR /tmp/
