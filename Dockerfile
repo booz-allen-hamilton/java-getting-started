@@ -1,2 +1,3 @@
-FROM ubuntu:14.04
-RUN apt-get update
+FROM java:latest
+RUN apt-get install maven
+
