@@ -1,5 +1,5 @@
 FROM java:latest
-RUN apt-get install maven
+#RUN apt-get install mvn
 ADD target /tmp/
 RUN ls -altr /tmp/
 
