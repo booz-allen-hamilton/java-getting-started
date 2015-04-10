@@ -61,7 +61,7 @@ public class Main extends HttpServlet {
   }
 
   public static void main(String[] args) throws Exception {
-    Server server = new Server(Integer.valueOf(System.getenv("PORT")));
+    Server server = new Server(Integer.valueOf("9000");
     ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
     context.setContextPath("/");
     server.setHandler(context);
